@@ -1,0 +1,51 @@
+body, div, h1, h2, p, ul {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url(../foto/background.jpg);
+}
+.container {
+	width: 85%;
+	height: 100%;
+	margin: auto;
+	background-color: white;
+	border:solid 1px;
+	border-radius: 10%;
+}
+
+.header {
+	padding-top: 20px; 
+}
+
+.header .judul {
+	font-size: 22px;
+	text-align: center;
+}
+
+.main {
+	padding: 8%;
+}
+
+.main p {
+	text-align: justify;
+	padding: 2% 1%;
+}
+
+.btn {
+	padding: 5px;
+	border-radius: 25%;
+	background-color: skyblue;
+}
+
+button:hover {
+	background-color: white;
+}
+
+.hero {
+	background-image: url(../foto/selamat.gif);
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
